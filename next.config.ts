@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: '/ideafilter',
+  assetPrefix: '/ideafilter/',
+  output: 'export',
 };
 
-export default nextConfig;
+module.exports = nextConfig
